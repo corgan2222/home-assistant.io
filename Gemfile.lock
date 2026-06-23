@@ -23,9 +23,7 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
-    eventmachine (1.2.7-x64-mingw32)
     ffi (1.15.5)
-    ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.8.0)
     i18n (1.10.0)
@@ -66,19 +64,19 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    mini_portile2 (2.8.0)
+    mini_portile2 (2.8.9)
     multi_json (1.15.0)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.13.6)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.19.4)
+      mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.13.6-x64-mingw32)
+    nokogiri (1.19.4-x64-mingw-ucrt)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    racc (1.6.0)
+    racc (1.8.1)
     rack (2.2.3.1)
     rack-protection (2.2.0)
       rack
@@ -94,8 +92,6 @@ GEM
     sass-globbing (1.1.5)
       sass (>= 3.1)
     sassc (2.1.0)
-      ffi (~> 1.9)
-    sassc (2.1.0-x64-mingw32)
       ffi (~> 1.9)
     sinatra (2.2.0)
       mustermann (~> 1.0)
@@ -114,7 +110,7 @@ GEM
 
 PLATFORMS
   ruby
-  x64-mingw32
+  x64-mingw-ucrt
 
 DEPENDENCIES
   compass (= 1.0.3)
@@ -123,7 +119,7 @@ DEPENDENCIES
   jekyll-paginate (= 1.1.0)
   jekyll-sitemap (= 1.4.0)
   jekyll-toc (= 0.17.1)
-  nokogiri (= 1.13.6)
+  nokogiri (= 1.19.4)
   rake (= 13.0.6)
   sass-globbing (= 1.1.5)
   sassc (= 2.1.0)
